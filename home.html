@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    
+</head>
+<body> 
+    
+    <header>
+        <nav> 
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">City</a></li>
+                <li><a href="#">Weather Info</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="pic"><img src="Pictures/logo.jpg" alt="Error"></div>
+
+      <div id="searchBar"> Search: <input id="box1" type="text" placeholder="Country name">
+    <button onclick="process()">Find Country</button>
+</div>
+
+    <div id="container"></div>
+
+    <footer>
+        <p>&copy; 2024 Weather Forecast. All rights reserved.</p>
+    </footer>
+
+    <script src="weather.js"></script>
+</body>
+</html>
